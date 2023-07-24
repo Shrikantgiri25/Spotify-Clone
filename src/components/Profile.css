@@ -1,0 +1,92 @@
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.loggedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 200px;
+  background-color: #191414;
+}
+
+.loggedin-heading {
+  color: white;
+  margin-top: 2rem;
+}
+
+.loggedin-email {
+  place-items: center;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.inButtons {
+  padding: 20px;
+  border-radius: 99px;
+  font-weight: 600;
+  margin-top: 2rem;
+  width: 15%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: #2ed86a;
+}
+
+.browsericon {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: -5px;
+  margin-bottom: -6px;
+}
+
+.inButtons:hover {
+  background-color: #1db954;
+}
+
+.useravatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.player {
+  position: fixed;
+  bottom: -17px;
+  left: 20px;
+  width: 100%;
+  height: 80px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .inButtons {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .loggedin-heading {
+    font-size: 1.5rem;
+  }
+
+  .loggedin-email {
+    font-size: 0.8rem;
+  }
+
+  .inButtons {
+    width: 60%;
+  }
+}

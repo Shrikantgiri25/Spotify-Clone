@@ -1,0 +1,125 @@
+.sidebar {
+  position: fixed;
+  height: 100%;
+  padding-right: 50px;
+  width: 15%;
+  padding-top: 0px;
+  padding-right: 80px;
+  background-color: #2ed86a;
+  font-size: 1.15em;
+}
+
+.menu-item {
+  display: flex;
+  color: white;
+  margin-bottom: 2px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.01s;
+  padding: 0.7em;
+  padding-left: 65px;
+  padding-top: 15px;
+  max-width: calc(100% - 65px); 
+  box-sizing: border-box; 
+}
+
+.menu-item:hover {
+  display: flex;
+  margin-bottom: 0px;
+  text-decoration: none;
+  text-align: left;
+  color: #2ed86a;
+  background-color: #ffff;
+  margin-left: -20px;
+  border-radius: 99px;
+  width: calc(100% - 65px); 
+  font-weight: 600;
+  padding-left: 83px;
+  padding-right: calc(100% + 17px);
+  box-sizing: border-box;
+}
+
+.filters {
+  margin-left: 10px;
+  padding: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.search-btn {
+  padding: 20px;
+  border-radius: 99px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo {
+  width: 80%;
+  height: 25%;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-left: 60px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.01s;
+}
+
+.logout-menu-item {
+  display: flex;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.01s;
+  padding: 0.7em;
+  padding-left: 70px;
+  margin-top: auto;
+  position: fixed;
+  bottom: 70px;
+  left: 0;
+  width: 15%;
+}
+
+.icons {
+  margin-right: 10px;
+  margin-left: -35px;
+  margin-bottom: -5px;
+}
+
+.icons:hover {
+  margin-right: 10px;
+  margin-left: -35px;
+  margin-bottom: -5px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    padding-right: 30px;
+    width: 25%;
+  }
+
+  .menu-item {
+    padding-left: 40px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: calc(100% - 50px);
+  }
+
+  .menu-item:hover {
+    padding-left: 60px;
+    padding-right: 100px;
+    width: calc(100% - 60px);
+  }
+
+  .logo {
+    margin-left: 30px;
+  }
+
+  .logout-menu-item {
+    padding-left: 50px;
+    width: 100%;
+  }
+}

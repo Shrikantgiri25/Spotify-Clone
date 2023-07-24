@@ -1,0 +1,71 @@
+.wrapper{
+  margin: 0;
+  padding: 0;
+}
+.loggedout{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.loggedin{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.loggedin > h2{
+  display: grid;
+  place-items: center;
+  color: white;
+}
+.loggedin > p{
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.inButtons {
+  padding:  20px;
+  border-radius: 99px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  background-color:#2ed86a;
+}
+
+.loggedout > img{
+  width: auto;
+  height: 200px;
+}
+
+.loggedout > button {
+  padding: 20px;
+  border-radius: 99px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  background-color: #2ed86a;
+}
+
+.inButtons:hover {
+  background-color: #1db954;
+}
+
+.loggedout > button:hover {
+  background-color: #1db954;
+}
+
+
+@media (max-width: 480px) {
+  .loggedout > img {
+    height: 150px;
+  }
+
+  .loggedout > button,
+  .inButtons {
+    padding: 15px;
+    font-size: 14px;
+  }
+}

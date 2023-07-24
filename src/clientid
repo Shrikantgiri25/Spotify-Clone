@@ -1,0 +1,17 @@
+5dd979d19146422495bea24389a495af
+
+
+.logo{
+    width: 80%;
+    height: 15%;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.01s;
+  } css
+
+
+padding-left and broder radius can help us to achieve hover effect of home profiler and search onsidebar

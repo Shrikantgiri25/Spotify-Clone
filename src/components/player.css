@@ -1,0 +1,77 @@
+.player{
+    position: fixed;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: -20px;
+    height: 2px;
+    width: 100%;
+    color: #444243;
+}
+
+.title-artist-wrapper div p:nth-child(2) {
+  display: flex;
+  font-size: 2px;
+  margin-left: -100px;
+}
+
+/*Image*/
+.rswp__active._InfoRSWP.__14rb9k img{
+  margin-left: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+._ContentRSWP.__4hbbcu{
+  width: 150px;
+}
+
+/*Buttons*/
+._ControlsButtonsRSWP.__bd4m75{
+  display: flex;
+  position: fixed;
+  margin-top: -10px;
+  margin-left: -190px;
+}
+
+/*Slider*/
+.rswp_progress{
+  margin-top: 0px;
+  margin-left: -20px;
+}
+._SliderRSWP.__1lztbt5{
+  display: flex;
+  margin-right: -245px;
+  margin-top: 0px;
+}
+ @media (max-width: 1240px) and (min-width: 891px){
+  ._ActionsRSWP.__1irer0f{
+    display: none;
+  }
+  .rswp_progress{
+    margin-top: 0px;
+    margin-left: -30px;
+  }
+  ._SliderRSWP.__1lztbt5{
+    display: flex;
+    margin-right: -145px;
+    margin-top: 0px;
+  }
+ }
+
+
+@media (max-width: 890px) {
+  ._ControlsButtonsRSWP.__bd4m75{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+  ._VolumeInlineRSWP.__bd4m75,
+  ._DevicesRSWP.__44pyx7,
+  ._ContentRSWP.__4hbbcu,
+  ._SliderRSWP.__1lztbt5,
+  .rswp_progress{
+    display: none;
+  }
+}
